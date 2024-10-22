@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Response</title>
+    <style>
+         pre {
+    white-space: pre-wrap;      
+    word-wrap: break-word;     
+    font-size: 16px;           
+  }
+
+  @media (max-width: 600px) {
+    pre {
+      font-size: 14px;          
+    }
+  }
+    </style>
 </head>
 <body>
+    <div class="all_text">
     <p><strong><%= chirag %></strong></p>
     <p><strong><pre><%= bharath %></pre></strong></p>
+    <p><strong><pre><%= project %></pre></strong></p>
+</div>
 </body>
 </html>
